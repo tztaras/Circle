@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(37, 42, 42);
+}
+
+.circles{
+    height: 55vmin;
+    width: 55vmin;
+    /* height: 30px;
+    width: 100px; */
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    color: rgb(255, 13, 13);
+    transform: translate3d(-50%,-50%,0);
+}
+
+.circle{
+    box-sizing:border-box;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2.5vmin solid transparent;
+    border-radius: 125% 150% 155% 110%/115% 130% 100% 115%;
+    mix-blend-mode: screen;
+    border-color: rgb(0, 2, 17);
+
+}
+
+.circle:nth-child(1){
+    border-color: rgb(0, 253, 30);
+    transform-origin: 50% 50%;
+    animation: spin1 5.5s linear infinite;
+}
+
+
+
+@keyframes spin1 {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+.circle:nth-child(2) {
+    border-color: rgb(247, 0, 255);
+    transform-origin: 50% 50%;
+    animation: spin2 5.5s linear infinite;
+}
+
+@keyframes spin2 {
+    0%{
+        transform: rotate(72deg);
+    }
+    100%{
+        transform: rotate(-288deg);
+    }
+    
+}
+.circle:nth-child(3) {
+    border-color: cyan;
+    transform-origin: 50% 50%;
+    animation: spin3 5.5s linear infinite;
+}
+
+@keyframes spin3 {
+    0%{
+        transform: rotate(144deg);
+    }
+    100%{
+        transform: rotate(-216deg);
+    }
+    
+}
+.circle:nth-child(4) {
+    border-color: rgb(255, 25, 0);
+    transform-origin: 50% 50%;
+    animation: spin4 5.5s linear infinite;
+}
+
+@keyframes spin4 {
+    0%{
+        transform: rotate(216deg);
+    }
+    100%{
+        transform: rotate(-144deg);
+    }
+    
+}
