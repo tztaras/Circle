@@ -38,7 +38,8 @@ body {
     color: rgb(0, 0, 0);
     transform: translate3d(-50%, -100%, 0);
     border-radius: 50%;
-    background-image: linear-gradient(to bottom right, rgba(0, 255, 255, 0.76)20%, rgb(11, 61, 126)80%);
+    box-shadow: inset 0 0 15px 10px black;
+    background-image: linear-gradient(to bottom right, rgb(225, 0, 255)20%, rgb(15, 76, 155)80%);
     /* background-color: rgba(88, 198, 202, 0.589); */
     /* border-color: rgb(255, 255, 0); */
 }
