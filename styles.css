@@ -112,7 +112,7 @@ body {
 }
 
 .circle:nth-child(4) {
-    border-color: rgb(255, 25, 0);
+    border-color: rgb(66, 119, 80);
     transform-origin: 50% 50%;
     animation: spin4 8s linear infinite;
 }
